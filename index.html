@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./img/favicon.svg">
+    <title>Decodificador</title>
+</head>
+<body>
+    <header>
+        <img src="./img/logo_alura.svg" alt="Logo da Alura" class="logo_alura">
+    </header>
+
+    <main>
+
+        <section class="teste">
+            <textarea placeholder="Digite seu texto" id="entrada" pattern="[a-z]"></textarea>
+            <div class="informacao">
+                <img src="./img/exclamacao.svg">
+                <h6>Apenas letras minúsculas e sem acento.</h6>
+            </div>
+            <div class="botoes">
+                <button id="btn_cripto">Criptografar</button>
+                <button id="btn_descripto">Descriptografar</button>
+            </div>
+    
+        </section>
+
+        <section>
+            <aside id="card">
+                <div id="aparecido">
+                    <img src="./img/aguardando.svg">
+                    <p>Nenhuma mensagem encontrada</p>
+                    <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+                </div>
+
+                <div id="escondido">
+                    <textarea id="saida" readonly></textarea>
+                    <button id="btn_copiar">Copiar</button>
+                    <button id="btn_limpar">Limpar</button>
+                </div>
+            </aside>
+        </section>
+
+    </main>
+
+    <footer>
+        <div>
+            <p> &copy;Desenvolvido por Guilherme Duarte Barcelos</p>
+            <a href="https://github.com/jooooou" target="_blank">
+                <img src="./img/logo_github.svg">
+                Github
+            </a>
+            <a href="https://www.linkedin.com/in/guilhermeduartebarcelos/" target="_blank">
+                <img src="./img/logo_linkedin.svg">
+                Linkedin
+            </a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

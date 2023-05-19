@@ -1,0 +1,165 @@
+body {
+    background-color:#F3F5FC;
+    font-family: 'Inter', sans-serif;
+    font-weight:400;
+    font-size:32px;
+    line-height:150%;
+}
+
+
+
+/* Header */
+
+header{
+    background-color:pink
+}
+
+.logo_alura{
+    margin-left:10px;
+    padding-top:10px;
+}
+
+/* Main */
+
+main{
+    background-color:rgb(218, 254, 218);
+    display:flex;
+    justify-content: center;
+    margin-left:90px;
+    margin-right:90px;
+}
+
+.teste{
+    display: grid;
+    place-items: center;
+    margin-bottom:50px;
+}
+
+/* Input de Entrada */
+#entrada{
+    outline:none;
+    border:none;
+    color:#0A3871;
+    margin-top:90px;
+    width:60vw;
+    height:57vh;
+    font-size:32px;
+    font-family: 'Inter', sans-serif;
+    background:none;
+    word-break: break-word;
+    resize:none;
+}
+
+::placeholder{
+    color:#0A3871;
+}
+
+.informacao{
+    display:flex;
+}
+
+.informacao h6{
+    font-size:12px;
+}
+
+/* Botões */
+button{
+    background: none;
+	color: #0A3871;
+	border:solid 1px #0A3871;
+    border-radius:24px;
+	padding: 24px;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    font-size:16px;
+    width:328px;
+    line-height:19px;
+    transition:all .5s;
+}
+
+button:hover{
+    background: #0A3871;
+    color:white;
+}
+
+.botoes{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:24px;
+}
+
+
+/* Input de Saída */
+#saida{
+    outline:none;
+    border:none;
+    color:#495057;
+    width:20vw;
+    height:57vh;
+    font-family: 'Inter', sans-serif;
+    background:none;
+    word-break: break-word;
+    resize:none;
+    font-size:24px;
+}
+
+/* Card */
+
+#card{
+    width:400px;
+    height:860px;
+    background-color:white;
+    border:none;
+    border-radius:24px;
+    color:#0A3871;
+    margin-left:98px;
+    margin-top:0;
+    padding-left:20px;
+    display:flex;
+    align-items:center;
+    margin-bottom:40px;
+    box-shadow:10px 10px;
+}
+
+#aparecido{
+    display:block;
+}
+
+#aparecido > p:nth-of-type(1) {
+    font-size:24px;
+    font-weight:bold;
+    color:#343A40;
+    font-weight: 700;
+    text-align:center;
+    line-height: 120%;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin:32px;
+}
+#aparecido > p:nth-of-type(2) {
+    font-size:16px;
+    line-height:150%;
+    text-align:center;
+    color: #495057;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+#escondido{
+    display:none;
+}
+
+#escondido textarea{
+   flex-grow:0;
+}
+
+/* Footer */
+
+footer{
+    background-color:lightblue;
+}
+
