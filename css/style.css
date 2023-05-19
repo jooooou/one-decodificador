@@ -12,8 +12,11 @@ body {
 
 
 .logo_alura{
-    margin-left:10px;
-    padding-top:10px;
+    position: absolute;
+    width: 120px;
+    height: 48px;
+    left: 40px;
+    top: 40px;
 }
 
 /* Main */
@@ -36,14 +39,17 @@ main{
     outline:none;
     border:none;
     color:#0A3871;
-    margin-top:90px;
-    width:60vw;
-    height:57vh;
     font-size:32px;
     font-family: 'Inter', sans-serif;
     background:none;
     word-break: break-word;
     resize:none;
+
+    position: absolute;
+    width: 1000px;
+    height: 600px;
+    left: 240px;
+    top: 160px;
 }
 
 ::placeholder{
@@ -52,6 +58,14 @@ main{
 
 .informacao{
     display:flex;
+    align-items: center;
+    gap:8px;
+
+    position: absolute;
+    width: 252px;
+    height: 18px;
+    left: 255px;
+    top: 790px;
 }
 
 .informacao h6{
@@ -83,6 +97,23 @@ button:hover{
     display:grid;
     grid-template-columns: 1fr 1fr;
     gap:24px;
+
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 240px;
+    top: 820px;
+}
+
+.botoes2{
+    display:grid;
+    gap:16px;
+
+    position: absolute;
+    width: 336px;
+    height: 67px;
+    left:45px;
+    top: 710px;
 }
 
 
@@ -91,20 +122,22 @@ button:hover{
     outline:none;
     border:none;
     color:#495057;
-    width:20vw;
-    height:57vh;
     font-family: 'Inter', sans-serif;
     background:none;
     word-break: break-word;
     resize:none;
     font-size:24px;
+
+    position: absolute;
+    width: 340px;
+    height: 630px;
+    left: 40px;
+    top: 32px;
 }
 
 /* Card */
 
 #card{
-    width:400px;
-    height:860px;
     background-color:white;
     border:none;
     border-radius:24px;
@@ -116,6 +149,12 @@ button:hover{
     align-items:center;
     margin-bottom:40px;
     box-shadow:10px 10px;
+
+    position: absolute;
+    width: 400px;
+    height: 900px;
+    left:1300px;
+    top: 40px;
 }
 
 #aparecido{
@@ -152,6 +191,8 @@ button:hover{
 #escondido textarea{
    flex-grow:0;
 }
+
+
 
 /* Footer */
 
