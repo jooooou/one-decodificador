@@ -10,9 +10,6 @@ body {
 
 /* Header */
 
-header{
-    background-color:pink
-}
 
 .logo_alura{
     margin-left:10px;
@@ -22,7 +19,6 @@ header{
 /* Main */
 
 main{
-    background-color:rgb(218, 254, 218);
     display:flex;
     justify-content: center;
     margin-left:90px;
@@ -159,7 +155,5 @@ button:hover{
 
 /* Footer */
 
-footer{
-    background-color:lightblue;
-}
+
 
