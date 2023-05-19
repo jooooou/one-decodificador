@@ -196,5 +196,68 @@ button:hover{
 
 /* Footer */
 
+footer{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    left: 0px;
+    top: 1000px;
+}
 
+footer div {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%
+}
+
+footer div p{
+    background: -webkit-linear-gradient(#0A3871,#6984e6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+footer div a {
+    size:5px;
+}
+
+footer div img {
+    margin-left:20px;
+}
+
+footer div img {
+    filter: invert(14%) sepia(93%) saturate(1860%) hue-rotate(201deg) brightness(89%) contrast(93%);
+}
+
+.logo_github{
+    width:40px;
+}
+
+
+
+
+/* Scrollbar */
+
+textarea::-webkit-scrollbar {
+    display: none;
+  }
+
+::-webkit-scrollbar-track
+  {
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+      background-color: #F5F5F5;
+      border-radius: 10px;
+  }
+  
+::-webkit-scrollbar
+  {
+      width: 10px;
+      background-color: #F5F5F5;
+  }
+  
+::-webkit-scrollbar-thumb
+  {
+      border-radius: 10px;
+      background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0.44, rgb(122,153,217)),color-stop(0.72, rgb(40, 89, 149)), color-stop(0.86, rgb(5, 32, 110)));
+  }
 
