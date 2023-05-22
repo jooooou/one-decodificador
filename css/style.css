@@ -21,19 +21,6 @@ body {
 
 /* Main */
 
-main{
-    display:flex;
-    justify-content: center;
-    margin-left:90px;
-    margin-right:90px;
-}
-
-.teste{
-    display: grid;
-    place-items: center;
-    margin-bottom:50px;
-}
-
 /* Input de Entrada */
 #entrada{
     outline:none;
@@ -213,6 +200,7 @@ footer div {
 
 footer div p{
     background: -webkit-linear-gradient(#0A3871,#6984e6);
+    background-clip:text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -261,3 +249,102 @@ textarea::-webkit-scrollbar {
       background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0.44, rgb(122,153,217)),color-stop(0.72, rgb(40, 89, 149)), color-stop(0.86, rgb(5, 32, 110)));
   }
 
+
+  /* Media queries  */
+
+    /* Tablet */
+  @media (max-width: 768px){
+
+    .logo_alura{
+        position: absolute;
+        left:0px;
+        top: 73.42px;
+    }
+
+    #entrada{
+        position: absolute;
+        width: 600px;
+        height: 380px;
+        left: 40px;
+        top: 200px;
+        margin:0px;
+        padding:0px;
+    }
+
+    .informacao{
+        position: absolute;
+        width: 252px;
+        height: 18px;
+        left: 40px;
+        top: 630px;
+    }
+
+    button{
+        padding:0px;
+        width:270px;
+    }
+
+    .botoes{
+        display: flex;
+        position: absolute;
+        left:0px;
+        top: 660px;
+        margin:0px;
+        width:680px;
+        text-align: center;
+        justify-content: center;
+    }
+
+
+    #card{
+        position: absolute;
+        width: 600px;
+        height: 500px;
+        left:25px;
+        top: 800px;
+        margin:0px;
+    }
+
+    #aparecido{
+        width: 688px;
+        height: 133px;
+    }
+
+    #aparecido img{
+        display:none;
+    }
+
+    #escondido textarea{
+        height:200px;
+        width:535px;
+    }
+
+    .botoes2{
+        position: absolute;
+        left:45px;
+        top:300px;
+    }
+
+    .botoes2 button{
+        width:540px;
+        height:67px;
+    }
+
+    footer{
+        position: absolute;
+        width:0px;
+        height:0px;
+        top: 1350px;
+        font-size:20px;
+        margin:0px;
+    }
+
+    footer div{
+        width:700px;
+    }
+
+    /* Celular M */
+    @media (max-width: 768px){
+        
+    }
+  }
