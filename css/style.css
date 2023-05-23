@@ -300,7 +300,7 @@ textarea::-webkit-scrollbar {
         position: absolute;
         width: 600px;
         height: 500px;
-        left:25px;
+        left:10px;
         top: 800px;
         margin:0px;
     }
@@ -344,7 +344,85 @@ textarea::-webkit-scrollbar {
     }
 
     /* Celular M */
-    @media (max-width: 768px){
-        
+    @media (max-width: 375px){
+        .logo_alura{
+            transform:scale(2);
+        }
+        #entrada{
+            top:280px;
+            height:700px;
+            font-size:60px;
+            width: 650px;
+        }
+        .informacao{
+            left:150px;
+            transform:scale(2);
+            top: 1100px;
+        }
+
+        .botoes{
+            display: grid;
+            grid-template-columns: 1fr;
+            left:380px;
+            top: 1150px;
+            width:0px;
+            height:0px;
+            gap:50px;
+        }
+
+        .botoes button{
+            font-size:30px;
+            width:650px;
+            height:130px;
+            border-radius:40px;
+        }
+
+        #card{
+            top:1500px;
+            width:690px;
+            left:16px;
+            height:900px;
+        }
+
+
+        #card #aparecido p{
+            font-size:40px;
+        }
+
+        #escondido textarea{
+            font-size:50px;
+            height:550px;
+            width:640px;
+        }
+    
+        .botoes2{
+            left:50px;
+            top:630px;
+            gap:40px;
+        }
+    
+        .botoes2 button{
+            width:600px;
+            height:100px;
+            font-size:30px;
+            border-radius:30px;
+        }
+
+
+        footer{
+            top:2500px;
+            left:140px;
+        }
+        footer div{
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        footer img{
+            transform:scale(3);
+            margin:0px;
+        }
+        footer p{
+            display:none;
+        }
     }
   }
