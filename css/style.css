@@ -259,7 +259,21 @@ textarea::-webkit-scrollbar {
 
   /* Media queries  */
 
-    /* Tablet */
+
+  @media (max-width:2560px){
+
+  }
+
+  @media (max-width:1440px){
+
+  }
+
+  @media (max-width:1024px){
+
+  }
+
+  /* Tablet */
+
   @media (max-width: 768px){
 
     .logo_alura{
@@ -351,6 +365,13 @@ textarea::-webkit-scrollbar {
         width:700px;
     }
 
+    /* Celular L */
+
+    @media (max-width:425px){
+
+    }
+
+
     /* Celular M */
     @media (max-width: 375px){
         .logo_alura{
@@ -371,7 +392,7 @@ textarea::-webkit-scrollbar {
         .botoes{
             display: grid;
             grid-template-columns: 1fr;
-            left:380px;
+            left:345px;
             top: 1150px;
             width:0px;
             height:0px;
@@ -379,15 +400,16 @@ textarea::-webkit-scrollbar {
         }
 
         .botoes button{
+            margin:0;
             font-size:30px;
-            width:650px;
+            width:610px;
             height:130px;
             border-radius:40px;
         }
 
         #card{
             top:1500px;
-            width:690px;
+            width:650px;
             left:16px;
             height:900px;
         }
@@ -398,13 +420,14 @@ textarea::-webkit-scrollbar {
         }
 
         #escondido textarea{
+            left:40px;
             font-size:50px;
             height:550px;
-            width:640px;
+            width:580px;
         }
     
         .botoes2{
-            left:50px;
+            left:25px;
             top:630px;
             gap:40px;
         }
@@ -433,4 +456,9 @@ textarea::-webkit-scrollbar {
             display:none;
         }
     }
+
+    @media (max-width:320px){
+
+    }
+
   }
